@@ -2,7 +2,7 @@
 1. Giới thiệu:
   - Ứng dụng là web quản trị cho FoodDelivery.
   - Ứng dụng dùng để quản lí người dùng, sản phẩm, đơn hàng.
-  - Giao diện bên web chưa hoàn thành, nếu muốn quản lí hãy sử dụng Postman.
+  - Giao diện bên web chưa hoàn thành, mới chỉ quản lí dữ liệu qua postman.
 2. Công nghệ:
   - Nodejs & ExpressJs.
   - Database: Mongodb.
