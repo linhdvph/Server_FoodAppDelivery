@@ -1,0 +1,29 @@
+<tbody>
+    <%for(var i = 0; i < list.length;i++){%>
+    <tr>
+        <th scope="row"><%=i+1%></th>
+        <td><img src="<%=list[i].avatar%>" width="80px" height="80px" alt=""></td>
+        <td>
+            <p><a href="/sp/chitiet/<%=list[i]._id%>" class="text-dark fw-bold"><%=list[i].name%></a></p>
+        </td>
+        <td><p><%=list[i].type_product.name%></p></td>
+        <td><p><%=list[i].price%></p></td>
+        <td><p><%=list[i].address%></p></td>
+        <td><p><%=list[i].descriptions%></p></td>
+        <td class="action">
+            <a href="/sp/upPro/<%=list[i]._id%>" class="btn border-shadow update">
+                <span class="text-gradient">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </span>
+            </a>
+
+            <a href="#" class="btn border-shadow delete" id="delete" data-id="<%=list[i]._id%>">
+                <span class="text-gradient">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </a>
+        </td>
+    </tr>
+
+    <%}%>
+</tbody>

@@ -1,0 +1,36 @@
+<!-- header -->
+<%-include('../inc/header')%>
+<!-- /header -->
+<div class="container-fluid">
+    <div class="row m-5 justify-content-center aligh-item-center">
+            <div class="card p-2" style="width: 40rem;">
+                <h1 class="text-center">Chi tiết sản phẩm</h1>
+                <hr>
+    
+                <div class="row align-middle ps-2">
+                    <div class="col-lg-5">
+                        <div class="card align-middle">
+                            <img src="/images/<%=list.anh%>" alt="" >
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-7 ps-3">
+                        <h1 class="my-2"><%=list.tensp%></h1>
+                        <h4>Giá: <a class="text-danger text-decoration-none"><%=list.giasp%></a></h4>
+                        <h4>Thể loại: <%=list.loaisp.name%></h4>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row mt-2">
+                    <h6 class="fw-bold">Mô tả: 
+                        <span class="text-decoration-none text-secondary"><%=list.noidung%></span>
+                    </h6>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- footer -->
+<%-include('../inc/footer')%>
+<!-- /footer -->

@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.navbar-brand{
+    font-size: 50px;
+    color: black;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand:hover{
+    color: black;
+    opacity: 0.8;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid red;
+    margin-right: -35px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: red;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+
+/*Banner start  ---------------------------------*/
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: 'Rubik', sans-serif;
+    background: #d8e9d2;
+    padding: 8px;
+}
+
+.banner .img{
+    flex: 1 1 20px;
+}
+
+.banner .img img{
+    width: 70%;
+}
+
+.banner .content{
+    flex: 1 1 10px;
+}
+
+.content h3{
+    margin-left: 70px;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px black;
+    color: #000;
+    font-weight: 700;
+}
+
+.content span{
+    font-size: 30px;
+    color: red;
+}
+
+.content #shopnow{
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #000;
+    font-weight: 700;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 50px;
+    color: #000;
+}
+
+.content #shopnow:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/*Banner end ----------- */
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background: rgb(191, 18, 18);
+    transition: 0.5s;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+/* .row p{
+    color: red;
+} */
+
+.foot{
+    background-color: black;
+    color: white;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+/* form add product start */
+.wrapper{
+    background-color: #d8e9d2;
+    padding: 10px;
+}
+
+.main{
+    width: 900px;
+}
+
+.rounded{
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.rounded:hover{
+    cursor: pointer;
+    background-color: #a8a3a3;
+    transition: 0.5s;
+}
+/* form add product end */
+
+/* form list product start */
+.listpro{
+    background-color: #d8e9d2;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* form list product end */
+
+/* style button form add start*/
+
+.btn_add_pro:hover{
+    background-color: #05166a;
+    color: #e6d7d7;
+    transition: 0.5s;
+}
+
+.btn_back_pro:hover{
+    background-color: #000;
+    transition: 0.5s;
+}
+/* style button form add end*/
+
+/* style quan li start */
+.quanli{
+    background-color: #d8e9d2;
+    padding: 10px;
+}
+
+/* style quan li end */
+
+
+
+/* table start*/
+
+.table .thead{
+    background-color: #343434;
+    color: #fff;
+}
+
+.table th, .table td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tr:hover{
+    background-color: #abd0a1;
+}
+
+.table .action a{
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.table .action a:hover{
+    background-color: #ccc;
+}
+
+/* .table .thead tr:hover{
+    background-color: #343434;
+} */
+/* table end*/
+
+
+/* Choose image start*/
+input[type="file"]{
+    display: none;
+}
+/* Choose image end*/
+
+
+/* Btn the loai start */
+.btnTL{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+/* Btn the loai end */
+
+/* custom content start*/
+table td p {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 300px;
+    color: #000;
+}
+/* custom content end*/

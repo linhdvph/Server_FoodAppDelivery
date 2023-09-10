@@ -1,0 +1,21 @@
+<div class="col-lg-2">
+    <form action="" method="post">
+        <h5>Filter Product</h5>
+        <hr>
+        <h6>Select</h6>
+        <ul class="list-group">
+            <select name="findsp" class="form-select" id="validationDefault04">
+                <option selected disabled value="">Choose type product</option>
+                <%listTL.forEach((row) =>{ %>
+                <option value="<%=row._id%>"><%=row.name%></option>
+                <%})%>
+            </select>
+
+            <div class="list-group-item">
+                <div class="d-grid gap-2 col-8 mx-auto">
+                    <button class="btn btn-success" type="submit">Find</button>
+                </div>
+            </div>
+        </ul>
+    </form>
+</div>

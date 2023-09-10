@@ -1,0 +1,70 @@
+<!-- header -->
+<%-include('../inc/header')%>
+<!-- /header -->
+
+<div class="wrapper">
+    <div class="container main my-2">
+        <div class="row m-5">
+            <div class="card mb-3">
+                <div class="row">
+                    <h2 class="text-center p-2">Sửa sản phẩm</h2>
+                    <hr>
+                </div>
+                <div class="card-body ">
+                    <form class="row g-3" action="/sp/upPro/<%=dulieuSP._id%>" method="post" enctype="multipart/form-data">
+                        <div class="text-center">
+                            <input type="hidden" name="old_image" value="<%=dulieuSP.anh%>">
+                            <input type="file" class="file" id="file" name="image">
+                            <label for="file">
+                                <img src="/images/<%=dulieuSP.anh%>" id="chooseImg"  class="rounded" alt="...">
+                            </label>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationServer04" class="form-label">Loại sản phẩm</label>
+                            <select class="form-select" id="validationServer04" name="loaisp"  required>
+                                <option disabled>Chọn...</option>
+                                <%dulieuTL.forEach((row) => {
+                                    var selected = "";
+                                    if(String(row._id) == String(dulieuSP.loaisp))
+                                        selected = "selected"
+                                    %>
+                                <option <%=selected%> value="<%=row._id%>"><%=row.name%></option>
+                                <%})%>
+                            </select>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <label for="validationDefault01" class="form-label">Tên sản phẩm</label>
+                            <input type="text" class="form-control" id="validationDefault01" value="<%=dulieuSP.tensp%>" name="tensp" required>
+                        </div>
+                       
+                        <div class="col-md-4">
+                            <label for="validationDefault01" class="form-label">Giá tiền</label>
+                            <input type="text" class="form-control" id="validationDefault04" value="<%=dulieuSP.giasp%>" name="giasp" required>
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-text">Nội dung</span>
+                            <textarea class="form-control" aria-label="With textarea" name="noidung" ><%=dulieuSP.noidung%></textarea>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-primary btn_add_pro" type="submit">Update</button>
+                        </div>
+
+                        <div class="col-6 d-grid gap-2 d-md-flex justify-content-md-end">
+                            <!-- <button class="btn btn-secondary me-md-2" type="button">Back</button> -->
+                            <a href="/sp" class="btn btn-secondary me-md-2 btn_back_pro">Back</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<%-include('../inc/footer')%>
+<!-- /footer -->

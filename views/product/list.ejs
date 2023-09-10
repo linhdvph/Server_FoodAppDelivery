@@ -1,0 +1,66 @@
+<!-- header -->
+<%-include('../inc/header')%>
+<!-- /header -->
+
+<div class="listpro">
+    <!-- add pro and find -->
+    <div class="row">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="btn btn-outline-primary" href="/product/add">Add product</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <hr>
+    <!-- /add pro and find -->
+    <form action="" method="post">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Filter -->
+                <%-include('../inc/filtersp')%>
+                <!-- /Filter -->
+
+                <div class="col-lg-10">
+                    <h5 class="text-center">All Products</h5>
+                    <hr>
+                    <form action="" method="post" id="tb-sp">
+                        <table class="table table-bordered table-striped text-center">
+                            <thead class="thead table-dark">
+                                <tr>
+                                    <th scope="col">STT</th>
+                                    <th scope="col">Avatar</th>
+                                    <th scope="col">Name product</th>
+                                    <th scope="col">Type product</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Address</th>
+                                    <th scope="col">Descriptions</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <!-- Table Content -->
+                            <!-- <div id="content"></div>
+                            <hr> -->
+                            <%-include('../inc/showsp')%>
+                            <!-- /Table Content -->
+                        </table>
+                    </form>
+
+                    <!-- Pagination -->
+                    <!-- <div id="paging"></div> -->
+                    <%-include('../inc/pagination')%>
+                    <!-- /Pagination -->
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+<!-- footer -->
+<%-include('../inc/footer')%>
+<!-- /footer -->
