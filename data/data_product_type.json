@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "64b0fb669e61f8b2f3b6ad74"
+  },
+  "name": "Bánh mì",
+  "avatar": "https://assets.stickpng.com/images/5873d87df3a71010b5e8ef79.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ba9a802eb6e18fee2cfb98"
+  },
+  "name": "Trà sữa",
+  "avatar": "https://tse4.mm.bing.net/th?id=OIP.2mfGH35adao6GIquqEVZaQHaEP&pid=Api&P=0&h=180",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c3002abf4ffcb586c36e"
+  },
+  "name": "Pizza",
+  "avatar": "https://pngimg.com/uploads/pizza/pizza_PNG7137.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c30b2abf4ffcb586c370"
+  },
+  "name": "Phở",
+  "avatar": "https://tse2.mm.bing.net/th?id=OIP.wAJ_d3uaUSJZIVmaBg_vewHaFW&pid=Api&P=0&h=180",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c3132abf4ffcb586c372"
+  },
+  "name": "Gà rán",
+  "avatar": "https://demoda.vn/wp-content/uploads/2022/01/anh-mon-ga-ran.jpeg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c31e2abf4ffcb586c374"
+  },
+  "name": "Bún",
+  "avatar": "https://www.mysaigon.cz/wp-content/uploads/2018/11/N11A2761-cropped-1-1170x679.png",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c3252abf4ffcb586c376"
+  },
+  "name": "Cơm",
+  "avatar": "https://toplist.vn/images/800px/com-tam-viet-nam-648801.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c6122abf4ffcb586c385"
+  },
+  "name": "Nước giải khát",
+  "avatar": "https://toplist.vn/images/800px/cong-ty-co-phan-bia-ruou-nuoc-giai-khat-sai-gon-200517.jpg",
+  "__v": 0
+}]

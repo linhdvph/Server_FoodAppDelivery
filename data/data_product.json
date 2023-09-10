@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "64ba9a992eb6e18fee2cfb9a"
+  },
+  "name": "Pizza Phô Mai",
+  "type_product": {
+    "$oid": "64c0c3002abf4ffcb586c36e"
+  },
+  "price": 55000,
+  "descriptions": "Tự hào là thương hiệu pizza số 1 Thế giới. Đặt hàng pizza online với nhiều ưu đãi hấp dẫn qua website chính thức hoặc hotline 1900 6099 miễn phí giao hàng tận nơi trong 30 phút.",
+  "avatar": "https://pngimg.com/uploads/pizza/pizza_PNG7137.png",
+  "address": "Cầu Giấy Nam Từ Liêm Hà Nội",
+  "time": 28,
+  "energy": 180,
+  "rating": 4.2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64baa0711808fa331e78a95a"
+  },
+  "name": "Bánh mì dân tổ",
+  "type_product": {
+    "$oid": "64b0fb669e61f8b2f3b6ad74"
+  },
+  "price": 30000,
+  "descriptions": "Delicious, convinient,...",
+  "avatar": "https://assets.stickpng.com/images/5873d87df3a71010b5e8ef79.png",
+  "address": "Hà Đông Hà Nội",
+  "time": 30,
+  "energy": 150,
+  "rating": 4.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0c92977142ac4fed9c419"
+  },
+  "name": "Coca Cola",
+  "type_product": {
+    "$oid": "64c0c6122abf4ffcb586c385"
+  },
+  "price": 20000,
+  "descriptions": "Coca-Cola (hay còn gọi là Coca, Coke) là một thương hiệu nước ngọt có ga chứa nước cacbon dioxide bão hòa được sản xuất bởi Công ty Coca-Cola. Coca-Cola được điều chế bởi dược sĩ John Pemberton vào cuối thế kỷ XIX với mục đích ban đầu là trở thành một loại biệt dược.",
+  "avatar": "https://tse1.mm.bing.net/th?id=OIP.tKQX9UnJmLoRZ0Ht-CuuQAHaHa&pid=Api&P=0&h=180",
+  "address": "Hoàng Hoa Thám Hà Nội",
+  "time": 40,
+  "energy": 120,
+  "rating": 3.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0cec73b493b86b6241f55"
+  },
+  "name": "Trà sữa trân châu đường đen",
+  "type_product": {
+    "$oid": "64ba9a802eb6e18fee2cfb98"
+  },
+  "price": 35000,
+  "descriptions": "Sữa tươi trân châu đường đen là loại thức uống mới, có nguồn gốc từ Đài Loan. Món đồ uống này là sự kết hợp hoàn hảo giữa sữa tươi không đường và trân châu đường đen. Hương vị thanh mát nhẹ nhàng của sữa tươi hòa quyện với trân châu dẻo dai, ngọt ngào đã tạo nên sức hấp dẫn không thể chối từ của loại đồ uống này.",
+  "avatar": "https://tse4.mm.bing.net/th?id=OIP.2mfGH35adao6GIquqEVZaQHaEP&pid=Api&P=0&h=180",
+  "address": "Mai Dịch Hà Nội",
+  "time": 15,
+  "energy": 160,
+  "rating": 4.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0cfbe3b493b86b6241f5a"
+  },
+  "name": "Bún chả",
+  "type_product": {
+    "$oid": "64c0c31e2abf4ffcb586c374"
+  },
+  "price": 40000,
+  "descriptions": "Bún chả là một món ăn của Việt Nam, bao gồm bún, chả thịt lợn nướng trên than hoa và bát nước mắm chua cay mặn ngọt. Món ăn xuất xứ từ miền Bắc Việt Nam, là thứ quà có sức sống lâu bền nhất của Hà Nội,[1] nên có thể coi đây là một trong những đặc sản đặc trưng của ẩm thực Hà thành. Bún chả có nét tương tự món bún thịt nướng ở miền Trung và miền Nam, nhưng nước mắm pha có vị thanh nhẹ hơn.",
+  "avatar": "https://www.mysaigon.cz/wp-content/uploads/2018/11/N11A2761-cropped-1-1170x679.png",
+  "address": "Dịch Vọng Hậu Hà Nội",
+  "time": 22,
+  "energy": 180,
+  "rating": 4.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0d09f3b493b86b6241f5c"
+  },
+  "name": "Cơm tấm",
+  "type_product": {
+    "$oid": "64c0c3252abf4ffcb586c376"
+  },
+  "price": 25000,
+  "descriptions": "Cơm tấm, hay Cơm tấm Sài Gòn là một món ăn Việt Nam có nguyên liệu chủ yếu từ gạo tấm.[4] Dù có nhiều tên gọi ở các vùng miền khác nhau, tuy nhiên nguyên liệu và cách thức chế biến của món ăn trên gần như là giống nhau.",
+  "avatar": "https://toplist.vn/images/800px/com-tam-viet-nam-648801.jpg",
+  "address": "Nhổn Hà Nội",
+  "time": 25,
+  "energy": 200,
+  "rating": 4.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0d629630a0b5e4c07ff3b"
+  },
+  "name": "Trà sữa matcha",
+  "type_product": {
+    "$oid": "64ba9a802eb6e18fee2cfb98"
+  },
+  "price": 33000,
+  "descriptions": "Matcha, hay còn gọi là trà xanh, vốn đã được giới trẻ biết đến thông qua các món bánh matcha hay trà sữa matcha,... Trong matcha chứa rất nhiều công dụng có lợi cho sức khỏe như hỗ trợ chống oxy hóa, giải độc cơ thể, giảm căng thẳng, mệt mỏi,... Với hương vị thơm ngon, matcha là một loại nguyên liệu phổ biến trong các cửa hàng ăn uống.",
+  "avatar": "https://homitatea.com/uploads/products/milktea/tra_sua_matcha.png",
+  "address": "Cổ Nhuế Hà Nội",
+  "time": 30,
+  "energy": 180,
+  "rating": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0d81f630a0b5e4c07ff3e"
+  },
+  "name": "Cơm gà",
+  "type_product": {
+    "$oid": "64c0c3252abf4ffcb586c376"
+  },
+  "price": 45000,
+  "descriptions": "Cơm gà là món ăn được chế biến và trình bày với hình thức cơm và thịt gà. Cơm có thể dùng là cơm trắng hoặc cơm chiên, cơm rang và thịt gà được trình bày thông thường là đùi gà hay cánh gà. Món cơm gà tương đối dễ làm và phổ biến. Nhưng tùy theo từng quốc gia và tập tục địa phương mà có những phương cách thực hiện khác nhau.",
+  "avatar": "https://toplist.vn/images/800px/quan-com-dui-ga-ngon-nhat-ha-noi-284152.jpg",
+  "address": "Mỹ Đình 2 Hà Nội",
+  "time": 25,
+  "energy": 250,
+  "rating": 4.6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0db6c630a0b5e4c07ff40"
+  },
+  "name": "Phở bò",
+  "type_product": {
+    "$oid": "64c0c30b2abf4ffcb586c370"
+  },
+  "price": 50000,
+  "descriptions": "Phở bò là một món ăn truyền thống của Việt Nam. Nó được làm từ bánh phở (một loại bánh mì mỏng và dài) và nước dùng được nấu từ xương và thịt bò. ",
+  "avatar": "https://tse2.mm.bing.net/th?id=OIP.wAJ_d3uaUSJZIVmaBg_vewHaFW&pid=Api&P=0&h=180",
+  "address": "Đống Đa Hà Nội",
+  "time": 32,
+  "energy": 300,
+  "rating": 4.9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c0df7675b31e01bd781173"
+  },
+  "name": "Trà sữa dâu",
+  "type_product": {
+    "$oid": "64ba9a802eb6e18fee2cfb98"
+  },
+  "price": 38000,
+  "descriptions": "Trà sữa kem dâu là một loại đồ uống pha từ trà sữa và kem dâu. Chúng thường được làm từ trà đen, sữa tươi, đường và trộn với kem dâu tươi hoặc siro dâu để tạo ra hương vị thơm ngon và màu hồng đặc trưng.",
+  "avatar": "https://sứckhoe.vn/wp-content/uploads/2019/05/tra-sua.jpg",
+  "address": "Nghĩa Đô Hà Nội",
+  "time": 22,
+  "energy": 120,
+  "rating": 4.4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f81bad233a3a733fc3de4d"
+  },
+  "name": "Pho bo bau",
+  "type_product": {
+    "$oid": "64c0c30b2abf4ffcb586c370"
+  },
+  "price": 998566,
+  "descriptions": "Summer in the hill, those hazy day i do remeber, we're running still, had the world at our of feet, watching season change, our role line with adventure, moutains in the way, couldn't keep us from the sea",
+  "avatar": "public\\images\\img_nui1.jpg",
+  "address": "49 123 Phuong Canh Thi Cam Xuan Phuong Nam Tu Liem Ha Noi",
+  "time": 63,
+  "energy": 180,
+  "rating": 3.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f85a63cc43ba1d72c9e781"
+  },
+  "name": "Abc",
+  "type_product": {
+    "$oid": "64b0fb669e61f8b2f3b6ad74"
+  },
+  "price": 123,
+  "descriptions": "aaaaaaaaaaaaaaaaaaaa",
+  "avatar": "sit_back_and_relax.png",
+  "address": "49 123 Phuong Canh Thi Cam Xuan Phuong Ha Noi",
+  "time": 20,
+  "energy": 160,
+  "rating": 4.3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f85de171e95135da3c7899"
+  },
+  "name": "a",
+  "type_product": {
+    "$oid": "64ba9a802eb6e18fee2cfb98"
+  },
+  "price": 12,
+  "descriptions": "sssssfs dsf sdfs",
+  "avatar": "http://localhost:3000/search_place.png",
+  "address": "aaaa",
+  "time": 1,
+  "energy": 2,
+  "rating": 3.8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64f86140a6633f5173f720ad"
+  },
+  "name": "a",
+  "type_product": {
+    "$oid": "64b0fb669e61f8b2f3b6ad74"
+  },
+  "price": 12,
+  "descriptions": "sdfs sdfsd",
+  "avatar": "http://localhost:3000/search_place.png",
+  "address": "aaa",
+  "time": 1,
+  "energy": 2,
+  "rating": 3,
+  "__v": 0
+}]

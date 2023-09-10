@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "64f2f4e3cb70a76dda3a26a6"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "id_product": {
+    "$oid": "64c0cfbe3b493b86b6241f5a"
+  },
+  "quantity_order": 3,
+  "__v": 0
+}]

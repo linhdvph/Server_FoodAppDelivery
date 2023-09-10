@@ -1,0 +1,211 @@
+[{
+  "_id": {
+    "$oid": "64cca24c225d85b8b3158e49"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "total_price": 330000,
+  "date": "04/08/2023 14:01:31 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64ba9f991808fa331e78a950"
+      },
+      "id_user": {
+        "$oid": "64b7fe901540c79e0597afee"
+      },
+      "id_product": {
+        "$oid": "64ba9a992eb6e18fee2cfb9a"
+      },
+      "quantity_order": 6,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Tiền mặt",
+  "state": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cca282225d85b8b3158e87"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "total_price": 150000,
+  "date": "04/08/2023 14:02:25 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64cca27a225d85b8b3158e75"
+      },
+      "id_user": {
+        "$oid": "64b7fe901540c79e0597afee"
+      },
+      "id_product": {
+        "$oid": "64c0db6c630a0b5e4c07ff40"
+      },
+      "quantity_order": 3,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Thẻ ngân hàng",
+  "state": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cde635f9d27e3520cb1d7c"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "total_price": 75000,
+  "date": "05/08/2023 13:03:31 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64cde62df9d27e3520cb1d6b"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0d09f3b493b86b6241f5c"
+      },
+      "quantity_order": 3,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Thẻ ngân hàng",
+  "state": 2,
+  "__v": 0,
+  "completion_time": "05/08/2023 13:08:40 PM"
+},
+{
+  "_id": {
+    "$oid": "64cde96bf9d27e3520cb1e86"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "total_price": 50000,
+  "date": "05/08/2023 13:17:13 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64cde965f9d27e3520cb1e75"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0db6c630a0b5e4c07ff40"
+      },
+      "quantity_order": 1,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Tiền mặt",
+  "state": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cdff39b1f54aea26149f89"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "total_price": 90000,
+  "date": "05/08/2023 14:50:16 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64cdff27b1f54aea26149f78"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0d81f630a0b5e4c07ff3e"
+      },
+      "quantity_order": 2,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Tiền mặt",
+  "state": 2,
+  "__v": 0,
+  "completion_time": "05/08/2023 14:51:00 PM"
+},
+{
+  "_id": {
+    "$oid": "64d4fca8ace0911b3f50573d"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "total_price": 175000,
+  "date": "10/08/2023 22:05:11 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64d4fb1bace0911b3f5056cb"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0d81f630a0b5e4c07ff3e"
+      },
+      "quantity_order": 3,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "64d4fc9dace0911b3f50571a"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0cfbe3b493b86b6241f5a"
+      },
+      "quantity_order": 1,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Tiền mặt",
+  "state": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d65fd739c5b4354dd0be5b"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "total_price": 50000,
+  "date": "11/08/2023 23:20:39 PM",
+  "list_product": [
+    {
+      "_id": {
+        "$oid": "64d65fd339c5b4354dd0be4a"
+      },
+      "id_user": {
+        "$oid": "64cde3f2f9d27e3520cb1d1e"
+      },
+      "id_product": {
+        "$oid": "64c0d09f3b493b86b6241f5c"
+      },
+      "quantity_order": 2,
+      "__v": 0
+    }
+  ],
+  "payment_method": "Tiền mặt",
+  "state": 0,
+  "__v": 0
+}]

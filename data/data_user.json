@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "name": "minh_na",
+  "email": "",
+  "phone_number": "0368978975",
+  "password": "bau123456789",
+  "avatar": "",
+  "address": "136 Tây Tựu Nam Từ Liêm Hà Nội",
+  "role": 1,
+  "date": "20/10/2003",
+  "__v": 0,
+  "google": "",
+  "facebook": ""
+},
+{
+  "_id": {
+    "$oid": "64bb81ed20f3b50e16b37288"
+  },
+  "name": "admin",
+  "email": "",
+  "phone_number": "0999999999",
+  "password": "admin",
+  "avatar": "",
+  "address": "",
+  "role": 0,
+  "date": "20/10/9999",
+  "__v": 0,
+  "google": "",
+  "facebook": ""
+},
+{
+  "_id": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "name": "Pham A",
+  "email": "",
+  "phone_number": "0123456789",
+  "password": "abc123",
+  "avatar": "",
+  "address": "136 Tây Tựu Hà Nội",
+  "role": 1,
+  "date": "",
+  "__v": 0,
+  "facebook": "",
+  "google": ""
+}]

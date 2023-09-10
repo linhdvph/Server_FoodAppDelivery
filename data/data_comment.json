@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "64bb8a58ed774a4c9ebbbf52"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "id_product": {
+    "$oid": "64baa0711808fa331e78a95a"
+  },
+  "content": "Nice, ....",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bb8a78ed774a4c9ebbbf54"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "id_product": {
+    "$oid": "64baa0711808fa331e78a95a"
+  },
+  "content": "Good, fast, uppp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64bb8aaded774a4c9ebbbf56"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "id_product": {
+    "$oid": "64ba9a992eb6e18fee2cfb9a"
+  },
+  "content": "aclcjlkcjlk",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cca26e225d85b8b3158e61"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "id_product": {
+    "$oid": "64ba9a992eb6e18fee2cfb9a"
+  },
+  "content": "Ok Good",
+  "date": "04/08/2023 14:02:06 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cca29c225d85b8b3158e9f"
+  },
+  "id_user": {
+    "$oid": "64b7fe901540c79e0597afee"
+  },
+  "id_product": {
+    "$oid": "64c0db6c630a0b5e4c07ff40"
+  },
+  "content": "Very good...",
+  "date": "04/08/2023 14:02:51 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cde815f9d27e3520cb1e2e"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "id_product": {
+    "$oid": "64c0d09f3b493b86b6241f5c"
+  },
+  "content": "Ok, ngon",
+  "date": "05/08/2023 13:11:31 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cde954f9d27e3520cb1e5c"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "id_product": {
+    "$oid": "64c0d09f3b493b86b6241f5c"
+  },
+  "content": "Nice",
+  "date": "05/08/2023 13:16:50 PM",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cdff92b1f54aea26149ff4"
+  },
+  "id_user": {
+    "$oid": "64cde3f2f9d27e3520cb1d1e"
+  },
+  "id_product": {
+    "$oid": "64c0d81f630a0b5e4c07ff3e"
+  },
+  "content": "okkkkkkkkkk",
+  "date": "05/08/2023 14:51:45 PM",
+  "__v": 0
+}]
