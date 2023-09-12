@@ -10,4 +10,5 @@
 3. Hướng dẫn sử dụng app:
   - B1: Download source code theo link: https://github.com/linhdvph/Server_FoodDelivery
   - B2: Download app FoodDelivery: https://github.com/linhdvph/FoodDelivery
-  - B3: Chạy lệnh "npm start" trên terminal để bắt đầu ứng dụng.
+  - B3: Chạy lệnh "npm i" để download phụ thuộc.
+  - B4: Chạy lệnh "npm start" trên terminal để bắt đầu ứng dụng.
